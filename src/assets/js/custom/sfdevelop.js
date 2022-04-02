@@ -39,7 +39,7 @@ $(document).ready(function(){
                     arrows: false,
                     centerMode: true,
                     centerPadding: '15px',
-                    slidesToShow: 2
+                    slidesToShow: 1
 
                 }
             },
