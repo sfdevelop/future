@@ -1,0 +1,383 @@
+@media(min-width: 1600px) {
+  .need {
+    .img {
+      min-height: 280px;
+    }
+  }
+}
+
+@media(min-width: 1200px) and(max-width: 1599px) {
+  .menu {
+    a {
+      font-size: 85%;
+    }
+
+    .logo {
+      width: 120px;
+    }
+  }
+  .need {
+    .img {
+      min-height: 280px;
+    }
+  }
+}
+
+@media(min-width: 992px) and(max-width: 1199px) {
+  .menu {
+    a {
+      font-size: 80%;
+    }
+
+    .logo {
+      width: 90px;
+    }
+
+    .button-green, .button-yellow {
+      padding: 6px 14px 8px;
+    }
+
+    ul {
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    #lang_dropDown {
+      font-size: 80%;
+    }
+  }
+  .pl-3, .px-3 {
+    padding-left: 0.75rem !important;
+  }
+  .pr-3, .px-3 {
+    padding-right: 0.75rem !important;
+  }
+  .need {
+    .img {
+      min-height: 200px;
+    }
+  }
+}
+
+// -------------------------------------------992
+@media(min-width: 992px) and(max-width: 1199px) {
+  .main {
+    .img-fluid {
+      max-width: 100% !important;
+      height: auto;
+    }
+
+    .display-2 {
+      font-size: 45px !important;
+      line-height: 1.1;
+    }
+
+    .container-fluid {
+      overflow: hidden;
+    }
+  }
+  .help .img-absolute {
+    max-width: 530px;
+  }
+}
+
+// -------------------------------------------768
+@media(min-width: 768px) and(max-width: 991px) {
+  .main {
+    .img-fluid {
+      max-width: 110% !important;
+      height: auto;
+    }
+
+    .display-2 {
+      font-size: 40px !important;
+      line-height: 1.1;
+    }
+
+    .container-fluid {
+      overflow: hidden;
+    }
+  }
+  .mt-120 {
+    margin-top: 60px;
+  }
+  #future {
+    &:before {
+      content: '';
+      display: none;
+    }
+
+    &:after {
+      content: '';
+      display: none;
+    }
+  }
+  .big_number {
+    font-size: 48px;
+  }
+  .py-92 {
+    padding-left: 24px;
+    padding-right: 24pt;
+    padding-top: 32px;
+    padding-bottom: 200px;
+  }
+  .display-5 {
+    font-size: 24px;
+  }
+  .marg-auto {
+    margin: 0 auto;
+  }
+  .help .img-absolute {
+    right: 50%;
+    margin-right: -175px;
+    max-width: 330px;
+  }
+  .main {
+    margin-top: 50px;
+  }
+}
+
+// --------------------------------------------576
+@media(min-width: 576px) and(max-width: 767px) {
+  .main {
+    .img-fluid {
+      max-width: 150% !important;
+      height: auto;
+    }
+
+    .display-2 {
+      font-size: 40px !important;
+      line-height: 1.1;
+    }
+
+    .container-fluid {
+      overflow: hidden;
+    }
+  }
+  .mt-120 {
+    margin-top: 60px;
+  }
+  #future {
+    &:before {
+      content: '';
+      display: none;
+    }
+
+    &:after {
+      content: '';
+      display: none;
+    }
+  }
+  .big_number {
+    font-size: 48px;
+  }
+  .strong {
+    font-size: 17px !important;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .document {
+    img {
+      width: 48px;
+    }
+  }
+  .py-92 {
+    padding-left: 24px;
+    padding-right: 24pt;
+    padding-top: 32px;
+    padding-bottom: 200px;
+  }
+  .display-5 {
+    font-size: 24px;
+  }
+  .marg-auto {
+    margin: 0 auto;
+  }
+  .help .img-absolute {
+    right: 50%;
+    margin-right: -175px;
+    max-width: 330px;
+  }
+  .main {
+    margin-top: 50px;
+  }
+}
+
+@media(min-width: 401px) and(max-width: 576px) {
+  .main {
+    .img-fluid {
+      max-width: 200% !important;
+      height: auto;
+    }
+
+    .display-2 {
+      font-size: 36px !important;
+      line-height: 1.1;
+    }
+
+    .container-fluid {
+      overflow: hidden;
+    }
+  }
+  .mt-120 {
+    margin-top: 60px;
+  }
+  .display-4 {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+  .p-100 {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  #future {
+    &:before {
+      content: '';
+      display: none;
+    }
+
+    &:after {
+      content: '';
+      display: none;
+    }
+  }
+  .big_number {
+    font-size: 48px;
+  }
+  .strong {
+    font-size: 17px !important;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .document {
+    img {
+      width: 48px;
+    }
+  }
+  .help .img-absolute {
+    right: 0px;
+  }
+  .help.img {
+    max-width: 330px;
+  }
+  .py-92 {
+    padding-left: 24px;
+    padding-right: 24pt;
+    padding-top: 32px;
+    padding-bottom: 200px;
+  }
+  .display-5 {
+    font-size: 24px;
+  }
+  .marg-auto {
+    margin: 0 auto;
+  }
+  .help .img-absolute {
+    right: 50%;
+    margin-right: -175px;
+    max-width: 330px;
+  }
+  .main {
+    margin-top: 50px;
+  }
+}
+
+// ----------------------------------------mobile
+@media(max-width: 400px) {
+  .main {
+    .display-2 {
+      font-size: 36px !important;
+      line-height: 1.1;
+    }
+
+    .img-fluid {
+      max-width: 300% !important;
+      height: auto;
+    }
+
+    .container-fluid {
+      overflow: hidden;
+    }
+  }
+  .mt-120 {
+    margin-top: 60px;
+  }
+  .display-4 {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+  .future strong {
+    font-size: 20px;
+  }
+  .p-100 {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+  .face-future {
+    a {
+      color: $green;
+      text-decoration: underline;
+    }
+  }
+  .card {
+    .card-title {
+      font-size: 16px;
+      line-height: 1.1;
+    }
+  }
+  .font-size-20 {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  #future {
+    &:before {
+      content: '';
+      display: none;
+    }
+
+    &:after {
+      content: '';
+      display: none;
+    }
+  }
+  .big_number {
+    font-size: 48px;
+  }
+  .strong {
+    font-size: 17px !important;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .document {
+    img {
+      width: 48px;
+    }
+  }
+  .py-92 {
+    padding-left: 24px;
+    padding-right: 24pt;
+    padding-top: 32px;
+    padding-bottom: 200px;
+  }
+  .display-5 {
+    font-size: 24px;
+  }
+  .marg-auto {
+    margin: 0 auto;
+  }
+  .help .img-absolute {
+    right: 0px;
+    max-width: 270px;
+  }
+  .bid-text {
+    font-size: 24px !important;
+  }
+  .main {
+    margin-top: 50px;
+  }
+}

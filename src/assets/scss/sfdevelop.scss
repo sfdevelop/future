@@ -1,0 +1,278 @@
+$blue-light: #9EB7D6;
+$white: #fff;
+$green: rgba(137, 178, 76, 1);
+$yellow: #FFD60A;
+
+.menu {
+  height: 104px;
+  background: #fff;
+
+  ul {
+    list-style-type: none;
+
+    li {
+      a {
+        color: #000;
+        text-decoration: none;
+        border-top: 2px solid $white;
+
+        &.active {
+          color: $blue-light;
+          border-top: 2px solid $blue-light;
+        }
+      }
+    }
+  }
+
+}
+
+.button-green {
+  padding: 14px 24px 16px;
+
+  background: #89B24C;
+  border-radius: 32px;
+}
+
+.button-green {
+  padding: 14px 24px 16px;
+  color: $white !important;
+  background: $green;
+  border-radius: 32px;
+}
+
+.button-white {
+  background: $white;
+  color: #000;
+}
+
+.button-yellow {
+  padding: 14px 24px 16px;
+  color: #000 !important;
+  background: $yellow;
+  border-radius: 32px;
+}
+
+.dropdown-menu {
+  min-width: auto;
+}
+
+.container-fluid {
+  max-width: 1920px;
+}
+
+.row-down {
+  bottom: 50px;
+}
+
+.mt-120 {
+  margin-top: 120px;
+}
+
+.future {
+  strong {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  a {
+    color: $green;
+    border-bottom: 1px solid $green;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.face-future {
+  .bg-blue {
+    background: rgba(158, 183, 214, 0.2);
+    border-radius: 24px;
+  }
+
+  .p-100 {
+    padding: 100px;
+  }
+
+  .mt-64 {
+    margin-top: 64px;
+  }
+}
+
+.card {
+  background: none;
+  border: none;
+
+  &-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.grey-50 {
+  color: rgba(35, 45, 57, 0.5);
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.big_number {
+  font-size: 96px;
+  font-weight: bolder;
+  position: relative;
+  z-index: 1;
+
+  &:before {
+    content: '';
+    width: 115px;
+    height: 106px;
+    position: absolute;
+    left: 0;
+    top: -10px;
+    background-image: url(../../assets/i/before.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+}
+
+.strong {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.box {
+  background: rgba(137, 178, 76, 0.2);
+  border-radius: 24px;
+
+  .small {
+    color: rgba(137, 178, 76, 0.4);
+  }
+}
+
+.document {
+  a {
+    color: #89B24C;
+    border-bottom: 1px solid rgba(137, 178, 76, .4);
+  }
+}
+
+.bg-yellow {
+  background: rgba(255, 214, 10, 0.15);
+  border-radius: 24px;
+}
+
+.py-92 {
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+
+.help {
+  a {
+    color: $green;
+  }
+
+  .img-absolute {
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+  }
+}
+
+.img {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 72px;
+  padding-right: 72px;
+  border-radius: 24px;
+
+  &.img-green {
+    background: rgba(137, 178, 76, 0.2);
+  }
+
+  &.img-blue {
+    background: rgba(158, 183, 214, 0.2);
+  }
+
+  &.img-yellow {
+    background: rgba(255, 214, 10, 0.2);
+  }
+}
+
+footer {
+  background: #232D39;
+  padding-top: 74px;
+
+  .small {
+    color: rgba(236, 241, 247, 0.5);
+    font-size: 16px;
+  }
+
+  .bid-text {
+    font-weight: 600;
+    font-size: 36px;
+    color: #ECF1F7;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .text-green {
+    color: $green;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  hr {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.bg-green {
+  background: rgba(137, 178, 76, 0.2);
+  border-radius: 24px;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+#future {
+  &:before {
+    content: '';
+    height: 100%;
+    width: 150px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 100%);
+    z-index: 9;
+    position: absolute;
+    left: 0;
+  }
+
+  &:after {
+    content: '';
+    height: 100%;
+    width: 150px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    z-index: 9;
+    position: absolute;
+    right: 0;
+  }
+}
+
+#attainment {
+  .slick-slide:nth-child(2n) {
+    margin-top: 40px;
+  }
+}
+.btn.focus, .btn:focus{
+  box-shadow: none;
+}
